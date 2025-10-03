@@ -47,7 +47,7 @@ public class Dardos : MonoBehaviour
             Debug.Log("Dardo grudou no alvo!");
         }
     }
-
+     
     void OnGrab(SelectEnterEventArgs args)
     {
         hasCollided = false; // reseta quando pegar
